@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Manuel Amaya</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="logo">
+            <a href="#presentacion"><img src="./src/logo.png" alt="Logo Manuel Amaya"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#sobreMi">Sobre mí</a></li>
+                <li><a href="#experiencia">Proyectos</a></li>
+                <li><a href="#">Servicios</a></li>
+            </ul>
+        </nav>
+        <a class="btn" href="./contacto.html"><button>Contacto</button></a>
+
+        <a onclick="openNav()" class="menu"><button>Menú</button></a>
+
+        <div id="mobile-menu" class="overlay">
+            <a onclick="closeNav()"  class="close">&times;</a>
+            <div class="overlay-content">
+                <a onclick="closeNav()" href="#sobreMi">Sobre mí</a>
+                <a onclick="closeNav()" href="#experiencia">Proyectos</a>
+                <a href="#">Servicios</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Body -->
+
+    
+        <!-- Sección Presentacion -->
+        <div class="presentacion seccion" id="presentacion">
+            <img class="foto" src="./src/foto_manuel-removebg-preview.png" alt="Foto perfil">
+            <br>
+            <h1 class=" text1">Hola, soy Manuel Amaya.</h1>
+            <h2>Desarrollador Web Java Full Stack Jr. / Ingeniero Industrial Logístico.</h2>
+        </div>
+
+        <!-- Sección Sobre Mi -->
+        <div class="sobreMi seccion" id="sobreMi">
+            <div class="textAbout">
+                <h1>Mucho gusto. Sobre de mí:</h1>
+                <br>
+                <p>Busco soluciones a problemas desde un punto de vista diferente que permita a las empresas
+                    obtener resultados eficientes y con ello obtener mayor experiencia en cada paso que emprendo.
+                    Soy Ingeniero Industrial con enfoque logístico, me gusta el área de la tecnología y
+                    actualmente soy Desarrollador Web Java Full Stack para la creación y seguimiento de paginas web y
+                    apps
+                    con
+                    conocimiento en HTML, CSS, JavaScript y Java.
+                </p>
+            </div>
+        </div>
+
+        <!-- Sección Experiencia -->
+
+        <div class="experiencia seccion" id="experiencia">
+            <h1 class="tituloExperiencia">Experiencia en Desarrollo Web</h1>
+
+            <div class="experienciaGeneration">
+                <div class="imgGeneration">
+                    <img src="./src/generationconfondo.jpg" alt="generation logo" class="generation">
+                </div>
+                <br>
+                <p>Generation México es un bootcamp para el desarrollo de habilidades técnicas como Desarrollador
+                    Web Java Full Stack Jr con herramientas de uso actual como HTML, CSS, JavaScript, JUnit, Java,
+                    Frameworks
+                    (Frontend y Backend), MySQL, GitHub, etc, junto con el desarrollo de habilidades blandas como
+                    trabajo en
+                    equipo, atención al detalle, resiliencia, entre otras.
+                </p>
+            </div>
+            <div class="experienciaLosDelfines">
+                <div class="imgLosDelfines">
+                    <img src="./src/LosDelfinesLogo.png" alt="los delfines logo" class="LosDelfines">
+                </div>
+                <br>
+                <p>Generation México es un bootcamp para el desarrollo de habilidades técnicas como Desarrollador
+                    Web Java Full Stack Jr con herramientas de uso actual como HTML, CSS, JavaScript, JUnit, Java,
+                    Frameworks
+                    (Frontend y Backend), MySQL, GitHub, etc, junto con el desarrollo de habilidades blandas como
+                    trabajo en
+                    equipo, atención al detalle, resiliencia, entre otras.
+                </p>
+            </div>
+        </div>
+    
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="./js/nav.js"></script>
+</body>
+
+</html>

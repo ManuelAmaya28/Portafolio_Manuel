@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Manuel Amaya</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./src/logo.png" alt="Logo Manuel Amaya"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./index.html#sobreMi">Sobre mí</a></li>
+                <li><a href="./index.html#experiencia">Proyectos</a></li>
+                <li><a href="#">Servicios</a></li>
+            </ul>
+        </nav>
+        <a class="btn" href="./contacto.html"><button>Contacto</button></a>
+
+        <a onclick="openNav()" class="menu"><button>Menú</button></a>
+
+        <div id="mobile-menu" class="overlay">
+            <a onclick="closeNav()" class="close">&times;</a>
+            <div class="overlay-content">
+                <a onclick="closeNav()" href="./index.html#sobreMi">Sobre mí</a>
+                <a onclick="closeNav()" href="./index.html#experiencia">Proyectos</a>
+                <a href="#">Servicios</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="./js/nav.js"></script>
+</body>
+
+</html>
